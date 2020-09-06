@@ -8,10 +8,10 @@ This examples accompanies an upcoming blog post on video streaming. Please check
 
 ## Setup
 
-Download the zip file for this respository or clone it using Git:
+Download [the zip file for this respository](https://github.com/bootstrapping-microservices/video-streaming-example/archive/master.zip) or clone it using Git:
 
 ```bash
-git clone XXX
+git clone https://github.com/bootstrapping-microservices/video-streaming-example.git
 ```
 
 ```bash
