@@ -24,7 +24,10 @@ Download [the zip file for this respository](https://github.com/bootstrapping-mi
 git clone https://github.com/bootstrapping-microservices/video-streaming-example.git
 ```
 
+Then install depdencies:
+
 ```bash
+cd video-streaming-example
 npm install
 ```
 
