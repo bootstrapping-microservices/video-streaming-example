@@ -10,6 +10,12 @@ To learn about a complete microservices project based on video streaming please 
 
 [Follow on Twitter for updates](http://bit.ly/2o0aDsP).
 
+## Chrome vs Safari
+
+This images gives you an idea of the differences between video streaming for Chrome and Safari:
+
+![Chrome vs Safari](images/video%20streaming%20in%20safari.png)
+
 ## Setup
 
 Download [the zip file for this respository](https://github.com/bootstrapping-microservices/video-streaming-example/archive/master.zip) or clone it using Git:
