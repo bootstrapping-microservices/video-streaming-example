@@ -1,0 +1,19 @@
+{
+  "name": "video-streaming-example",
+  "version": "1.0.0",
+  "description": "A Node.js/Express example of streaming video that works in both Chrome and Safari",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "ashley@codecapers.com.au",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
