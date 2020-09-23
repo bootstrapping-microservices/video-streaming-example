@@ -3,16 +3,40 @@
     <head>
         <meta charset="utf-8">
         <title>Video streaming example</title>
-        </head>
+    </head>
     <body> 
-        <video
-            muted
-            playsInline
-            loop
-            controls
-            style="height: 300px;"
-            src="/works-in-chrome-and-safari" 
-            >
-        </video>
+        <h1>Video streaming example</h1>
+        
+        <div style="display: flex; flex-direction: row;"> 
+            <div>
+                <div>
+                    <h2>Works in Chrome (but not Safari):</h2>
+                </div>
+                <video
+                    style="height: 300px"
+                    muted
+                    playsInline
+                    loop
+                    controls
+                    src="/works-in-chrome" 
+                    >
+                </video>
+            </div>
+
+            <div style="margin-left: 2em;">
+                <div>
+                    <h2>Works in Chrome and Safari:</h2>
+                </div>
+                <video
+                    style="height: 300px"
+                    muted
+                    playsInline
+                    loop
+                    controls
+                    src="/works-in-chrome-and-safari" 
+                    >
+                </video>
+            </div>
+        </div>
     </body>
 </html>
