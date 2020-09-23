@@ -78,23 +78,23 @@ app.get('/works-in-chrome-and-safari', (req, res) => {
             res.end();
         }
         else {        
-            let retreivedLength;
+            let retrievedLength;
             if (start !== undefined && end !== undefined) {
-                retreivedLength = (end+1) - start;
+                retrievedLength = (end+1) - start;
             }
             else if (start !== undefined) {
-                retreivedLength = contentLength - start;
+                retrievedLength = contentLength - start;
             }
             else if (end !== undefined) {
-                retreivedLength = (end+1);
+                retrievedLength = (end+1);
             }
             else {
-                retreivedLength = contentLength;
+                retrievedLength = contentLength;
             }
 
             res.statusCode = start !== undefined || end !== undefined ? 206 : 200;
 
-            res.setHeader("content-length", retreivedLength);
+            res.setHeader("content-length", retrievedLength);
 
             if (range !== undefined) {  
                 res.setHeader("content-range", `bytes ${start || 0}-${end || (contentLength-1)}/${contentLength}`);
