@@ -46,5 +46,3 @@ npm run start:dev
 ```
 
 Point your browser at http://localhost:3000 for the UI.
-
-Or look at http://localhost:3000/works-in-chrome-and-safari to directly see the video in the web browser.
