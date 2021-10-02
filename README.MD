@@ -8,7 +8,7 @@ This examples accompanies an upcoming blog post on video streaming. Please check
 
 To learn about a complete microservices project based on video streaming please see my book [Bootstrapping Microservices](http://bit.ly/2o0aDsP).
 
-[Follow on Twitter for updates](https://twitter.com/ashleydavis75).
+[Click here to support my work](https://www.codecapers.com.au/about#support-my-work)
 
 ## Chrome vs Safari
 
