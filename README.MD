@@ -6,7 +6,7 @@ You need Node.js installed to try out this example.
 
 This examples accompanies an upcoming blog post on video streaming. Please check back later for a link to the blog post.
 
-To learn about a complete microservices project based on video streaming please see my book [Bootstrapping Microservices](http://bit.ly/2o0aDsP).
+To learn about a complete microservices project based on video streaming please see my book [Bootstrapping Microservices](https://www.bootstrapping-microservices.com).
 
 [Click here to support my work](https://www.codecapers.com.au/about#support-my-work)
 
